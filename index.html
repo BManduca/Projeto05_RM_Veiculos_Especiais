@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Projeto #5 - RM Veículos Especiais.</title>
+		<link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+		<meta charset="utf-8">
+		<meta name="description" content="Descrição do meu site.">
+		<meta name="keywords" content="palavras,separadas,por,vírgula">
+		<meta name="author" content="Brunno Manduca">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="CSS/style.css">
+		<link rel="shortcut icon" type="image-x/png" href="Imagens/logo_carro.ico">
+	</head>
+
+	<body>
+
+		<header>
+
+			<div class="container">
+				<div class="logo">
+					<img src="Imagens/logo.jpg">
+				</div>
+
+				<nav class="desktop">
+					<ul>
+						<li><a style="color: #EB2D2D" href="index.html">Home</a></li>
+						<li><a href="venda.html">Venda</a></li>
+						<li><a href="">Galeria</a></li>
+						<li><a href="">Eventos</a></li>
+						<li><a href="sobre.html">Sobre Nós</a></li>
+						<li><a href="">Contato</a></li>
+					</ul>
+				</nav><!-- desktop -->
+
+				<nav class="mobile">
+					<ul>
+						<li><a style="color: #EB2D2D" href="index.html">Home</a></li>
+						<li><a href="venda.html">Venda</a></li>
+						<li><a href="">Galeria</a></li>
+						<li><a href="">Eventos</a></li>
+						<li><a href="sobre.html">Sobre Nós</a></li>
+						<li><a href="">Contato</a></li>
+					</ul>
+				</nav> <!-- mobile -->
+
+			</div><!-- container -->
+			<div class="clear"></div>
+		</header>
+
+		<section class="banner">
+			<div class="container">
+				<div class="text-banner">
+					<div class="text-banner-single">Consultoria</div> <!-- text-banner-single -->
+					<div class="text-banner-single">Compra</div> <!-- text-banner-single -->
+					<div class="text-banner-single">Venda</div> <!-- text-banner-single -->
+					<div class="text-banner-single">contato@rmveiculosespeciais.com.br</div> <!-- text-banner-single -->
+				</div> <!-- text-banner -->
+			</div> <!-- container -->
+		</section> <!-- banner -->
+
+		<section class="veiculos-destaque">
+			<div class="line-titulo">
+				<div class="ln1"></div>
+				<h2>Veículos em destaque</h2>
+			</div> <!-- line-titulo -->
+
+			<div class="container">
+				<div class="vitrine-destaque">
+					<div style="background-image: url('Imagens/carro1.png');" class="carro-img"></div> <!-- carro-img -->
+					<div class="info-carro">
+						<h2>Volkswagen Karmann-ghia</h2>
+						<p>1.6 8v, Gasolina, 2P, Manual 1969</p>
+						<a class="btn1" href="">Mais detalhes</a>
+					</div><!-- info-carro -->
+				</div> <!-- vitrine-destaque -->
+
+				<div class="vitrine-destaque">
+					<div style="background-image: url('Imagens/carro2.png');" class="carro-img"></div> <!-- carro-img -->
+					<div class="info-carro">
+						<h2>Chevrolet Opala</h2>
+						<p>4cc, Bancos de Corvin, 2,5 1980</p>
+						<a class="btn1" href="">Mais detalhes</a>
+					</div><!-- info-carro -->
+				</div> <!-- vitrine-destaque -->
+
+				<div class="vitrine-destaque">
+					<div style="background-image: url('Imagens/carro3.png');" class="carro-img"></div> <!-- carro-img -->
+					<div class="info-carro">
+						<h2>Volkswagen Gol GTs</h2>
+						<p>1.6 8v, Gasolina, 2P, Manual 1969</p>
+						<a class="btn1" href="">Mais detalhes</a>
+					</div><!-- info-carro -->
+				</div> <!-- vitrine-destaque -->
+				<div class="clear"></div>
+			</div>
+		</section> <!-- veiculos-destaque -->
+
+		<section class="servicos-descricao">
+			<div class="half1">
+				<div class="half1-wrapper">
+					<h2>Serviços</h2>
+					<ul>
+						<li>Compra</li>
+						<li>Venda</li>
+						<li>Consignação</li>
+						<li>Consultoria de Veículos</li>
+						<li>Indicação de Mecânicos e Peças</li>
+					</ul>
+					<a class="btn1" href="">Saiba mais</a>
+				</div> <!-- half1-wrapper -->
+			</div> <!-- half1 -->
+
+			<div class="half2">
+				<h2>Depoimentos</h2>
+				<div class="depoimentos-single">
+					<p>“O Rafael foi muito atencioso, me buscou no aeroporto e garantiu toda comodidade e conforto no almoço, no transfer, na visita ao veículo e durante o test-drive”</p>
+					<div class="navegacao">
+						<div class="arrows">
+							<img src="Imagens/arrow-left.png">
+							<img src="Imagens/arrow-right.png">
+						</div> <!-- arrows -->
+						<div class="nome-depoimento">Gustavo Teixeira - Colecionador</div>
+					</div> <!-- navegacao -->
+				</div> <!-- depoimentos-single -->
+			</div> <!-- half2 -->
+		</section> <!-- servicos-descricao -->
+
+		<section class="contato">
+			<div class="line-titulo">
+				<div class="ln1"></div>
+				<h2>Entre em contato</h2>
+			</div> <!-- line-titulo -->
+			<form>
+
+				<div class="form-wrapper w100">
+					<span>Nome:</span>
+					<input placeholder="Nome*" type="text" name="nome" required>
+				</div> <!-- form-wrapper w100 --> 
+
+				<div class="form-wrapper w50">
+					<span>E-mail:</span>
+					<input placeholder="E-mail*" type="text" name="email" required>
+				</div> <!-- form-wrapper w50 -->
+
+				<div class="form-wrapper w50">
+					<span>Telefone:</span>
+					<input placeholder="Telefone*" type="text" name="telefone" required>
+				</div> <!-- form-wrapper w50 -->
+
+				<div class="form-wrapper w100">
+					<span>Mensagem:</span>
+					<textarea placeholder="Mensagem*" required></textarea>
+				</div> <!-- form-wrapper w100 -->
+
+				<div class="form-wrapper w100" style="text-align: center;">
+					<input class="btn1" type="submit" name="acao" value="Enviar">
+				</div>
+				
+			</form>
+			<div class="clear"></div>
+		</section> <!-- contato -->
+
+		<footer>
+			<div class="container">
+				<nav>
+					<ul>
+						<li><a style="color: #EB2D2D;" href="index.html">Home</a></li>
+						<li><a href="venda.html">Venda</a></li>
+						<li><a href="">Galeria</a></li>
+						<li><a href="">Eventos</a></li>
+						<li><a href="sobre.html">Sobre nós</a></li>
+						<li><a href="">Contato</a></li>
+					</ul>
+				</nav>
+				<p>Todos os direitos reservados a RM Veículos Especiais</p>
+				<div class="clear"></div>
+			</div> <!-- container -->
+		</footer>
+
+	</body>
+
+</html>
